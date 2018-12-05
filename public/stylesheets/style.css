@@ -1,0 +1,16 @@
+.card-container, .card{
+    margin: 30px;
+}
+.card-text, .card-price{
+    color: darkgrey;
+}
+
+body{
+    background-color: black;
+}
+
+.btn{
+    background-color: darkgrey;
+    border-color: darkgrey;
+
+}
