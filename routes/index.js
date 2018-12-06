@@ -7,8 +7,8 @@ const csrfProtection = csrf();
 router.use(csrfProtection);
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    let products = Product.find();
-    res.render('shop/index', { title: 'shop-practice',products: products });
+    // let products = Product.find();
+    res.render('shop/index', { title: 'shop-practice' });
 });
 
 router.get('/user/signup', function(req,res, next){
