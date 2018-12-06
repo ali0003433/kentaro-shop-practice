@@ -6,7 +6,11 @@
 }
 
 body{
-    background-color: black;
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Noto Serif SC', serif;
+    align-items:center;
 }
 
 .btn{
@@ -14,3 +18,5 @@ body{
     border-color: darkgrey;
 
 }
+
+
